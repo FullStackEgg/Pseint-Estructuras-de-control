@@ -1,9 +1,9 @@
 Algoritmo ejercicio_extra_6
 	
-	//Leer tres números que denoten una fecha (día, mes, año) y comprobar que sea una fecha
-	//válida. Si la fecha no es válida escribir un mensaje de error por pantalla. Si la fecha es
-	//válida se debe imprimir la fecha cambiando el número que representa el mes por su
-	//nombre. Por ejemplo: si se introduce 1 2 2006, se deberá imprimir ?1 de febrero de 2006?.
+	//Leer tres nÃºmeros que denoten una fecha (dÃ­a, mes, aÃ±o) y comprobar que sea una fecha
+	//vÃ¡lida. Si la fecha no es vÃ¡lida escribir un mensaje de error por pantalla. Si la fecha es
+	//vÃ¡lida se debe imprimir la fecha cambiando el nÃºmero que representa el mes por su
+	//nombre. Por ejemplo: si se introduce 1 2 2006, se deberÃ¡ imprimir ?1 de febrero de 2006?.
 	
 	Definir dia, mes, anio Como Entero
 	
@@ -13,7 +13,7 @@ Algoritmo ejercicio_extra_6
 	Escribir "[2]Ingrese el mes: "
 	leer mes
 	
-	Escribir "[3]Ingrese el año: "
+	Escribir "[3]Ingrese el aÃ±o: "
 	leer anio
 	
 	Si (dia >= 1 Y dia <= 31 ) Y (mes >= 1 Y mes <= 12) Y (anio >= 0) Entonces
