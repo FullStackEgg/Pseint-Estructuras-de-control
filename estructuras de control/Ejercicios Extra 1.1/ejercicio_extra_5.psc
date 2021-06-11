@@ -1,13 +1,13 @@
 Algoritmo ejercicio_extra_5
 	
 	//Solicitar al usuario que ingrese un valor entre 1 y 7. EL programa debe mostrar por
-	//pantalla un mensaje que indique a qué día de la semana corresponde. Considere que el
-	//número 1 corresponde al día ?Lunes?, y así sucesivamente.
+	//pantalla un mensaje que indique a quÃ© dÃ­a de la semana corresponde. Considere que el
+	//nÃºmero 1 corresponde al dÃ­a ?Lunes?, y asÃ­ sucesivamente.
 	
 	Definir var_num Como Entero
 	
 	Escribir "[ DIAS DE LA SEMANA ]"
-	Escribir "Ingrese un número en el rango de 1 a 7."
+	Escribir "Ingrese un nÃºmero en el rango de 1 a 7."
 	Leer var_num
 	
 	Segun var_num Hacer
