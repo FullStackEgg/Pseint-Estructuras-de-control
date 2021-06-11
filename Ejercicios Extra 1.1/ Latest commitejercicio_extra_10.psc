@@ -1,6 +1,6 @@
 Algoritmo ejercicio_extra_10
 	
-	//10.Una verdulería ofrece las manzanas con descuento según la siguiente tabla
+	//10.Una verdulerÃ­a ofrece las manzanas con descuento segÃºn la siguiente tabla
 
 	Definir descuento, precio Como real
 	Definir kilo Como Entero
