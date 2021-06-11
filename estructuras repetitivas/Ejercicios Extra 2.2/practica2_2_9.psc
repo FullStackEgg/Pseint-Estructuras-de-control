@@ -1,7 +1,7 @@
 //Bucles Anidados
-// 9.Realizar un programa que lea un número entero (tamaño del lado) y a 
-//partir de él cree un cuadrado de asteriscos de ese tamaño. Los asteriscos 
-//sólo se verán en el borde del cuadrado, no en el interior. 
+// 9.Realizar un programa que lea un nÃºmero entero (tamaÃ±o del lado) y a 
+//partir de Ã©l cree un cuadrado de asteriscos de ese tamaÃ±o. Los asteriscos 
+//sÃ³lo se verÃ¡n en el borde del cuadrado, no en el interior. 
 Algoritmo practica2_2_9
 	
 	definir bandera_salir Como Caracter
@@ -21,7 +21,7 @@ Algoritmo practica2_2_9
 		contar_y = 0
 		auxiliar = ""
 		
-		Escribir "tamaño del lado: "
+		Escribir "tamaÃ±o del lado: "
 		Leer tamano
 		
 		Mientras contar_x < tamano Hacer
