@@ -1,25 +1,25 @@
 Algoritmo ejercicio_11
 	
-	/// Construir un programa que simule un menú de opciones para realizar las cuatro
-	/// operaciones aritméticas básicas (suma, resta, multiplicación y división) con dos valores
-	/// numéricos enteros. El usuario, además, debe especificar la operación con el primer
-	/// carácter de la operación que desea realizar: ‘S' o ‘s’ para la suma, ‘R’ o ‘r’ para la resta, ‘M’
-	/// o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.
+	/// Construir un programa que simule un menÃº de opciones para realizar las cuatro
+	/// operaciones aritmÃ©ticas bÃ¡sicas (suma, resta, multiplicaciÃ³n y divisiÃ³n) con dos valores
+	/// numÃ©ricos enteros. El usuario, ademÃ¡s, debe especificar la operaciÃ³n con el primer
+	/// carÃ¡cter de la operaciÃ³n que desea realizar: â€˜S' o â€˜sâ€™ para la suma, â€˜Râ€™ o â€˜râ€™ para la resta, â€˜Mâ€™
+	/// o â€˜mâ€™ para la multiplicaciÃ³n y â€˜Dâ€™ o â€˜dâ€™ para la divisiÃ³n.
 	
 	Definir operacionMat Como Caracter
 	Definir num1, num2, suma, resta, multi Como Entero
 	Definir division Como Real
 	
-	Escribir "[ Operaciones Aritméticas ]"
+	Escribir "[ Operaciones AritmÃ©ticas ]"
 	Escribir "--------------------------------------------------------------------"
-	Escribir  "Ingrese los números con los que desea operar:"
+	Escribir  "Ingrese los nÃºmeros con los que desea operar:"
 	Leer num1, num2
 	
 	Escribir "--------------------------------------------------------------------"
-	Escribir "Digite el caracter correspondiente a la Operación que desea realizar:  "
+	Escribir "Digite el caracter correspondiente a la OperaciÃ³n que desea realizar:  "
 	Escribir "- Suma (S)"
 	Escribir "- Resta (R)"
-	Escribir "- Multiplicación (M)"
+	Escribir "- MultiplicaciÃ³n (M)"
 	Escribir "- Division (D)"
 	Escribir "---------------------------------------------------------------------"
 	
@@ -40,7 +40,7 @@ Algoritmo ejercicio_11
 			division = num1 / num2
 			Escribir  num1, " / ", num2, " = ", division
 		De Otro Modo:
-			Escribir "Opción inválida"
+			Escribir "OpciÃ³n invÃ¡lida"
 	Fin Segun
 	
 FinAlgoritmo
