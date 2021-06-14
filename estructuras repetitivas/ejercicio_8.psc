@@ -1,20 +1,20 @@
 Algoritmo ejercicio_8
 	
-	//8.Un docente de ProgramaciÛn tiene un listado de 3 notas registradas por cada uno de 
-	//sus N estudiantes. La nota final se compone de un trabajo pr·ctico Integrador (35%), una 
-	//ExposiciÛn (25%) y un Parcial (40%). El docente requiere los siguientes informes claves 
+	//8.Un docente de Programaci√≥n tiene un listado de 3 notas registradas por cada uno de 
+	//sus N estudiantes. La nota final se compone de un trabajo pr√°ctico Integrador (35%), una 
+	//Exposici√≥n (25%) y un Parcial (40%). El docente requiere los siguientes informes claves 
 	//de sus estudiantes
 	
 	//Nota promedio final de los estudiantes que reprobaron el curso. Un estudiante 
 	//reprueba el curso si tiene una nota final inferior a 6.5 
-	//? Porcentaje de alumnos que tienen una nota de integrador mayor a 7.5. 
-	//? La mayor nota obtenida en las exposiciones. 
-	//? Total de estudiantes que obtuvieron en el Parcial entre 4.0 y 7.5
+	//- Porcentaje de alumnos que tienen una nota de integrador mayor a 7.5. 
+	//- La mayor nota obtenida en las exposiciones. 
+	//- Total de estudiantes que obtuvieron en el Parcial entre 4.0 y 7.5
 	
-	//El programa pedir· la cantidad de alumnos que tiene el docente y en cada alumno 
-	//pedir· las 3 notas y calcular· todos informes claves que requiere el docente. Nota: para 
+	//El programa pedir√° la cantidad de alumnos que tiene el docente y en cada alumno 
+	//pedir√° las 3 notas y calcular√° todos informes claves que requiere el docente. Nota: para 
 	
-	Definir cantidad_estudiantes, i, nota1, nota2, nota3, contador_integrador, nota_max_exposicion, estudiante_nota_mayor, total_estudiantes_parcial Como Real
+	Definir cantidad_estudiantes, i, notaExpo, notaPractico, notaParcial, contador_integrador, nota_max_exposicion, estudiante_nota_mayor, total_estudiantes_parcial Como Real
 	Definir promedio, porcentaje Como Real
 	
 	contador_integrador = 0
@@ -26,30 +26,28 @@ Algoritmo ejercicio_8
 	Leer  cantidad_estudiantes
 	
 	Para i = 1 Hasta cantidad_estudiantes Con Paso 1 Hacer
+		
 		Escribir "Alumno ",i
-		
 		Escribir "Ingrese la nota de la expocision"
-		Leer nota1
-		Escribir "Ingrese la nota del tp"
-		Leer nota2
+		Leer notaExpo 
+		
+		Escribir "Ingrese la nota del trabajo practico"
+		Leer notaPractico
+		
 		Escribir "Ingrese la nota del parcial"
-		Leer nota3
+		Leer notaParcial
 		
+		// Se calcula el promedio total por alumno
+		promedio = (notaExpo * 0.25) + (notaPractico * 0.35) + (notaParcial * 0.4)
 		
-		
-		promedio = (nota1 * 0.25) + (nota2 * 0.35) + (nota3 * 0.4)
-		//Escribir "Promedio:",promedio
-		
-		//Nota promedio final de los estudiantes que reprobaron el curso. Un estudiante 
-		//reprueba el curso si tiene una nota final inferior a 6.5 
+		// Nota promedio final de los estudiantes que reprobaron el curso. Un estudiante reprueba el curso si tiene una nota final inferior a 6.5 
 		si (promedio < 6.5) Entonces
 			Escribir "El alumno ",i," reprobo el curso con un promedio de ",promedio
 		FinSi
 		
-		//? Porcentaje de alumnos que tienen una nota de integrador mayor a 7.5. 
-		si (nota2 < 7.5) Entonces
+		// Porcentaje de alumnos que tienen una nota de integrador mayor a 7.5. 
+		si (notaPractico < 7.5) Entonces
 			contador_integrador = contador_integrador +1
-			
 		FinSi
 		
 		si (i = cantidad_estudiantes) Entonces
@@ -57,7 +55,7 @@ Algoritmo ejercicio_8
 			Escribir "Porcentaje: ",porcentaje,"%"
 		FinSi
 		
-		//? La mayor nota obtenida en las exposiciones.
+		// La mayor nota obtenida en las exposiciones.
 		si (nota_max_exposicion < nota1) Entonces
 			nota_max_exposicion = nota1
 			estudiante_nota_mayor = i
@@ -68,7 +66,7 @@ Algoritmo ejercicio_8
 		FinSi
 		
 		
-		//? Total de estudiantes que obtuvieron en el Parcial entre 4.0 y 7.5
+		// Total de estudiantes que obtuvieron en el Parcial entre 4.0 y 7.5
 		si ((nota3 > 4) y (nota3 < 7.5)) Entonces
 			total_estudiantes_parcial = total_estudiantes_parcial + 1
 		FinSi
