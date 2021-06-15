@@ -1,6 +1,6 @@
 # PseInt
 
-_Compendio de ejercicios de las estructuras de control y estructuras repetitivas en Pseint._
+_Compendio de ejercicios de las guias Pseint._
 
 ## Guia 2.1 🚀
 
