@@ -55,7 +55,7 @@ Mira el folder **estructuras de control** para visualizar una posible solución 
 
 ## Guia 2.2 🚀
 
-La guía 2.1 contiene las estructuras de control repetitivas o conocidas como bucles: ( Mientras, Hacer mientras, Para )._ 
+_La guía 2.1 contiene las estructuras de control repetitivas o conocidas como bucles: ( Mientras, Hacer mientras, Para )._ 
 
 ### Sintaxis del Mientras
 ```
@@ -82,7 +82,7 @@ Mira el folder **estructuras repetitivas** para visualizar una posible solución
 
 ## Guia 3.1 🚀
 
-La guía 3.1 contiene los ejercicios de Subprogramas o SubProcesos._ 
+_La guía 3.1 contiene los ejercicios de Subprogramas o SubProcesos._ 
 
 ### Sintaxis  de los SubProcesos
 
