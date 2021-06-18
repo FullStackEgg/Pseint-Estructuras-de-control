@@ -94,6 +94,18 @@ FinSubProceso
 
 Mira el folder **Subprogramas Guia 3.1** para visualizar una posible solución a c/u de los ejercicios de esta sección.
 
-1- La wiki para explicacion de funciones de pseint.
+## Guia 3. 🚀
 
-2- archivo.md para cada archivo la logica del resultado de cada ejercicio.
+_La guía 3.2 contiene los ejercicios de Subprogramas(Funciones - Recursion)._ 
+
+### Sintaxis  de los SubProcesos
+
+```
+Funcion variable_de_retorno <- Nombre (Parámetros)
+       Definir variable_de_retorno como Tipo de Dato
+       <acciones> //cuerpo de la función
+FinFuncion
+```
+
+Mira el folder **Subprogramas Guia 3.2** para visualizar una posible solución a c/u de los ejercicios de esta sección.
+
