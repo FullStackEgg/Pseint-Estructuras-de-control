@@ -94,11 +94,11 @@ FinSubProceso
 
 Mira el folder **Subprogramas Guia 3.1** para visualizar una posible solución a c/u de los ejercicios de esta sección.
 
-## Guia 3. 🚀
+## Guia 3.2 🚀
 
 _La guía 3.2 contiene los ejercicios de Subprogramas(Funciones - Recursion)._ 
 
-### Sintaxis  de los SubProcesos
+### Sintaxis  de las Funciones
 
 ```
 Funcion variable_de_retorno <- Nombre (Parámetros)
