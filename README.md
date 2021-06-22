@@ -109,3 +109,21 @@ FinFuncion
 
 Mira el folder **Subprogramas Guia 3.2** para visualizar una posible solución a c/u de los ejercicios de esta sección.
 
+## Guia 4.1 🚀
+
+_La guía 4.1 contiene los ejercicios de Arreglos Unidimensionales: VECTORES (Areglo, Matriz o Vector)._ 
+
+### Sintaxis  de un Arreglo
+
+
+-Primero se debe definir el tipo de Dato del arreglo:
+```
+            Definir nombre_vector como Tipo_de_Dato
+```            
+-Despues se le asigna la dimsension o la cantidad de indices o elementos que tendra:
+```
+            Dimension nombre_vector(tamaño)       
+```
+
+Mira el folder **Arreglos guia 4.1** para visualizar una posible solución a c/u de los ejercicios de esta sección.
+
