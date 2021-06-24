@@ -1,15 +1,15 @@
 Algoritmo ejercicio_7
 	
-	//	7. Crear un subproceso que rellene dos arreglos de tamaño n, con números aleatorios.
-	//	Después, hacer una función que reciba los dos arreglos y diga si todos sus valores son
-	//	iguales o no. La función debe devolver el resultado de está validación, para mostrar el
-	//	mensaje en el algoritmo. Nota: recordar el uso de las variables de tipo lógico.
+	//	7. Crear un subproceso que rellene dos arreglos de tamaÃ±o n, con nÃºmeros aleatorios.
+	//	DespuÃ©s, hacer una funciÃ³n que reciba los dos arreglos y diga si todos sus valores son
+	//	iguales o no. La funciÃ³n debe devolver el resultado de estÃ¡ validaciÃ³n, para mostrar el
+	//	mensaje en el algoritmo. Nota: recordar el uso de las variables de tipo lÃ³gico.
 	
 	Definir vector_1, vector_2, tamanio, i Como Entero
 	Definir sonIguales Como Logico
 	
 	Escribir "[ COMPARAR VECTORES ]"
-	Escribir "Ingrese el tamaño que desea para los vectores: "
+	Escribir "Ingrese el tamaÃ±o que desea para los vectores: "
 	Leer tamanio
 	
 	Dimension vector_1[tamanio]
@@ -52,7 +52,7 @@ SubProceso rellenarVector(vector Por Referencia, tamanio)
 	
 	Definir i Como Entero
 	
-	// Rellenar el arreglo con los caracteres de la frase
+	// Rellenar el arreglo 
 	Para i = 0 Hasta tamanio -1 Hacer
 		vector[i] = Aleatorio(1, 1) // para probar si funciona cambiamos los valores a (1, 1)
 	FinPara
@@ -76,7 +76,7 @@ Funcion resultado <- compararVectores ( vector_1 Por Referencia, vector_2 Por Re
 		FinSi
 	FinPara
 	
-	// si acumulador es igual al tamaño del arreglo quiere decir que todos los valores son iguales
+	// si acumulador es igual al tamaÃ±o del arreglo quiere decir que todos los valores son iguales
 	Si acumulador = tamanio Entonces
 		resultado = Verdadero
 	SiNo
