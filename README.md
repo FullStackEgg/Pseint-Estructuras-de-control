@@ -111,7 +111,7 @@ Mira el folder **Subprogramas Guia 3.2** para visualizar una posible solución a
 
 ## Guia 4.1 🚀
 
-_La guía 4.1 contiene los ejercicios de Arreglos Unidimensionales: VECTORES (Areglo, Matriz o Vector)._ 
+_La guía 4.1 contiene los ejercicios de Arreglos Unidimensionales: VECTORES (Areglo o Vector)._ 
 
 ### Sintaxis  de un Arreglo
 
@@ -127,3 +127,21 @@ _La guía 4.1 contiene los ejercicios de Arreglos Unidimensionales: VECTORES (Ar
 
 Mira el folder **Arreglos guia 4.1** para visualizar una posible solución a c/u de los ejercicios de esta sección.
 
+## Guia 4.2 🚀
+
+_La guía 4.2 contiene los ejercicios de ARREGLOS BIDIMENSIONALES: MATRICES ( Matriz )._ 
+
+### Sintaxis  de una Matriz
+
+
+-Primero se debe definir el tipo de Dato de la Matriz:
+```
+            Definir nombre_matriz como Tipo_de_Dato
+            
+```            
+-Despues se le asigna la dimsension o la cantidad de indices o elementos que tendra:
+```
+            Dimension nombre_matriz(tamañoFila,tamañoColumna)     
+```
+
+Mira el folder **Arreglos Bidimencionales guia 4.2** para visualizar una posible solución a c/u de los ejercicios de esta sección.
